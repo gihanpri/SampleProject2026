@@ -128,6 +128,7 @@
     <Compile Include="AddUsers.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CustomerCRUD.vb" />
     <Compile Include="DBConn.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -140,6 +141,12 @@
       <DependentUpon>FrmAdmin.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomerCRUD.Designer.vb">
+      <DependentUpon>FrmCustomerCRUD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomerCRUD.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmUser.Designer.vb">
@@ -181,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAdmin.resx">
       <DependentUpon>FrmAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomerCRUD.resx">
+      <DependentUpon>FrmCustomerCRUD.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUser.resx">
       <DependentUpon>FrmUser.vb</DependentUpon>
