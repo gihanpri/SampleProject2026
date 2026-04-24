@@ -95,6 +95,7 @@ Public Class AddUsers
             Dim row As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
 
             UserID = row.Cells("userID").Value.ToString()
+            'MessageBox.Show(row.Cells("userID").Value)
             txtAddUserName.Text = row.Cells("username").Value.ToString()
             txtAddPassword.Text = row.Cells("password").Value.ToString()
             txtRetypePass.Text = row.Cells("password").Value.ToString()
